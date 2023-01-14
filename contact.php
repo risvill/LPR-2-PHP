@@ -27,12 +27,11 @@
 
     switch (strtoupper($letter) ) { 
         case "G":
-            $size *= 10 ** 9;
-            break;
+            $size *= 1024;
         case "M":
-            $size *= 10 ** 6;
+            $size *= 1024;
         case "K":
-            $size *= 1000;
+            $size *= 1024;
     }
     ?>
     <!-- Область основного контента -->
